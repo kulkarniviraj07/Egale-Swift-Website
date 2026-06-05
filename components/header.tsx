@@ -9,7 +9,7 @@ export default function Header() {
 
   const [isOpen, setIsOpen] = useState(false)
 
-  const handleSmoothScroll = (e, targetId) => {
+  const handleSmoothScroll = (e: React.MouseEvent<HTMLAnchorElement | HTMLButtonElement>, targetId: string) => {
     e.preventDefault()
     const element = document.querySelector(targetId)
     if (element) {
