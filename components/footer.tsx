@@ -5,25 +5,25 @@ import { LogoIcon } from "./Logo"
 
 export default function Footer() {
 
-    const [isOpen, setIsOpen] = useState(false)
-  
-    const handleSmoothScroll = (e, targetId) => {
-      e.preventDefault()
-      const element = document.querySelector(targetId)
-      if (element) {
-        element.scrollIntoView({
-          behavior: "smooth",
-          block: "start"
-        })
-        setIsOpen(false) // Close mobile menu after clicking
-      }
+  const [isOpen, setIsOpen] = useState(false)
+
+  const handleSmoothScroll = (e, targetId) => {
+    e.preventDefault()
+    const element = document.querySelector(targetId)
+    if (element) {
+      element.scrollIntoView({
+        behavior: "smooth",
+        block: "start"
+      })
+      setIsOpen(false) // Close mobile menu after clicking
     }
+  }
 
   return (
-<footer className="bg-foreground text-background border-t border-border/20">
+    <footer className="bg-foreground text-background border-t border-border/20">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <div className="grid md:grid-cols-4 gap-8 mb-12">
-          
+
           {/* LOGO SECTION */}
           <div>
             <div className="flex items-center gap-2 mb-4">
@@ -32,9 +32,9 @@ export default function Footer() {
                 alt="PureFrame Labs logo"
                 width={28}
                 height={28}
-                className="invert" 
+                className="invert"
               />
-              <span className="font-semibold">PureFrame Labs</span>
+              <span className="font-semibold">EGALESWIFT GLOBAL ADVISORS PRIVATE LIMITED</span>
             </div>
 
             <p className="text-sm text-background/60">
@@ -45,33 +45,33 @@ export default function Footer() {
             <h4 className="font-semibold mb-4">Services</h4>
             <ul className="space-y-2 text-sm text-background/70">
               <li>
-                <a 
-                href="#services" 
-                onClick={(e) => handleSmoothScroll(e, "#services")}
-                className="hover:text-background transition-colors">
+                <a
+                  href="#services"
+                  onClick={(e) => handleSmoothScroll(e, "#services")}
+                  className="hover:text-background transition-colors">
                   Business Analytics
                 </a>
               </li>
               <li>
-                <a 
-                href="#services" 
-                onClick={(e) => handleSmoothScroll(e, "#services")}
-                className="hover:text-background transition-colors">
+                <a
+                  href="#services"
+                  onClick={(e) => handleSmoothScroll(e, "#services")}
+                  className="hover:text-background transition-colors">
                   Process Optimization
                 </a>
               </li>
               <li>
-                <a 
-                href="#services" 
-                onClick={(e) => handleSmoothScroll(e, "#services")}
-                className="hover:text-background transition-colors">
+                <a
+                  href="#services"
+                  onClick={(e) => handleSmoothScroll(e, "#services")}
+                  className="hover:text-background transition-colors">
                   Real Estate Intelligence
                 </a>
               </li>
               <li>
-                <a href="#services" 
-                onClick={(e) => handleSmoothScroll(e, "#services")}
-                className="hover:text-background transition-colors">
+                <a href="#services"
+                  onClick={(e) => handleSmoothScroll(e, "#services")}
+                  className="hover:text-background transition-colors">
                   Performance Analytics
                 </a>
               </li>
@@ -88,15 +88,15 @@ export default function Footer() {
               </li>
               <li>
                 <a href="#services"
-                onClick={(e) => handleSmoothScroll(e, "#services")}
-                className="hover:text-background transition-colors">
+                  onClick={(e) => handleSmoothScroll(e, "#services")}
+                  className="hover:text-background transition-colors">
                   Services
                 </a>
               </li>
               <li>
                 <a href="#contact"
-               onClick={(e) => handleSmoothScroll(e, "#contact")}
-                className="hover:text-background transition-colors">
+                  onClick={(e) => handleSmoothScroll(e, "#contact")}
+                  className="hover:text-background transition-colors">
                   Contact
                 </a>
               </li>
@@ -108,21 +108,21 @@ export default function Footer() {
             <ul className="space-y-2 text-sm text-background/70">
               <li>
                 <a
-                href="mailto:pureframelabs@gmail.com"
-                className="hover:text-background transition-colors">
-                 pureframelabs@gmail.com
+                  href="mailto:office@pureframelabs.in"
+                  className="hover:text-background transition-colors">
+                  office@pureframelabs.in
                 </a>
               </li>
               <li>
                 <a
-                href="tel:+91 9529988048 "
-                className="hover:text-background transition-colors">
+                  href="tel:+91 9529988048 "
+                  className="hover:text-background transition-colors">
                   +91 9529988048
                 </a>
               </li>
               <li>
                 <a href="#" className="hover:text-background transition-colors">
-                  Talao Road, Shriram Nagar, Khamgaon<br></br>PinCode-444203, Maharashtra
+                  Shop No 10, Pusad Naka, Mahatma Gandhi Complex, Washim City, Washim, Washim- 444505, Maharashtra
                 </a>
               </li>
             </ul>
@@ -130,7 +130,7 @@ export default function Footer() {
         </div>
 
         <div className="pt-8 border-t border-background/10">
-          <p className="text-sm text-background/60">© 2026 PureFrame Labs. All rights reserved.</p>
+          <p className="text-sm text-background/60">© 2026 EGALESWIFT GLOBAL ADVISORS PRIVATE LIMITED. All rights reserved.</p>
         </div>
       </div>
     </footer>

@@ -12,10 +12,10 @@ export default function CTA() {
             <div className="flex flex-col items-center">
               <p className="text-sm text-foreground/50 mb-2">Email</p>
               <a
-                href="mailto:pureframelabs@gmail.com"
+                href="mailto:office@pureframelabs.in"
                 className="text-md font-semibold text-foreground hover:text-foreground/80 transition-colors"
               >
-                pureframelabs@gmail.com
+                office@pureframelabs.in
               </a>
             </div>
 
@@ -36,7 +36,7 @@ export default function CTA() {
             <div className="flex flex-col items-center">
               <p className="text-sm text-foreground/50 mb-2">Address</p>
               <p className="text-md font-semibold text-foreground">
-                Talao Road, Shriram Nagar, Khamgaon<br></br>PinCode-444203, Maharashtra
+                Shop No 10, Pusad Naka, Mahatma Gandhi Complex, Washim City, Washim, Washim- 444505, Maharashtra
               </p>
             </div>
           </div>

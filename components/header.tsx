@@ -41,7 +41,7 @@ export default function Header() {
               </svg>
             <div className="flex flex-col leading-none">
               <span className="text-base font-bold tracking-tighter uppercase">
-                PureFrame Labs Private limited
+                EGALESWIFT GLOBAL ADVISORS PRIVATE LIMITED
               </span>
             </div>
           </Link>
